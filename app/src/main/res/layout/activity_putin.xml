@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".putin">
+
+    <Button
+        android:id="@+id/btn_getclassmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/putin_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/ed_getclassmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/putin_classnum"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btn_getclassmsg"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_addnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/putin_classadd"
+        app:layout_constraintBottom_toTopOf="@+id/ed_getclassmsg"
+        app:layout_constraintEnd_toStartOf="@+id/ed_tms" />
+
+    <EditText
+        android:id="@+id/ed_tms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/activity_putin_13"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btn_addnew"
+        tools:layout_editor_absoluteX="120dp" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_putin_14"
+        app:layout_constraintBottom_toTopOf="@+id/ed_tms"
+        tools:layout_editor_absoluteX="173dp" />
+
+    <EditText
+        android:id="@+id/ed_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/activity_putin_15"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/btn_show"
+        tools:layout_editor_absoluteX="128dp" />
+
+    <EditText
+        android:id="@+id/ed_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/activity_putin_16"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/btn_input"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_putin_student_id_submission_confirmation"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="175dp" />
+
+    <Button
+        android:id="@+id/btn_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/activity_putin_17"
+        app:layout_constraintTop_toBottomOf="@+id/ed_input"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/activity_putin_18"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/btn_name"
+        tools:layout_editor_absoluteX="90dp" />
+
+    <TextView
+        android:id="@+id/tx_show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/ed_input"
+        tools:layout_editor_absoluteX="181dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

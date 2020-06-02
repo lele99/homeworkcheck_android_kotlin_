@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!--################ activity_putin start ################-->
+    <string name="putin_1">1.请输入班级号并点击此按钮获取班级信息</string>
+    <string name="putin_classnum">请输入班级编号</string>
+    <string name="putin_classadd">添加一次作业查询(自动显示结果为上一次的查询)</string>
+    <string name="activity_putin_13">请输入查询第几次作业</string>
+<string name="activity_putin_14">显示本次未交作业的名单</string>
+<string name="activity_putin_15">此为每次自动填充数据位置，若无需自动填充留空</string>
+<string name="activity_putin_16">请在此输入学生学号，点击确定即为作业已经提交</string>
+<string name="activity_putin_student_id_submission_confirmation">学号提交确认</string>
+<string name="activity_putin_17">通过输入姓名进行作业提交确认</string>
+<string name="activity_putin_18">如有需要请在此输入姓名</string>
+<!--################ activity_putin end ################-->
+
+
+<!--################ activity_creatclass start ################-->
+<string name="activity_creatclass_create_class">创建班级</string>
+<string name="activity_creatclass_19">请输入班级编号(仅数字)</string>
+<!--################ activity_creatclass end ################-->
+<!--################ activity_main start ################-->
+<string name="activity_main_choose_a_csv_file">选择一个csv文件</string>
+<string name="activity_main_file_storage_address">文件存放地址</string>
+<string name="activity_main_20">读取csv数据到选择班级</string>
+<string name="activity_main_data_export">进行数据导出</string>
+<string name="activity_main_21">选择一个数据导出目录</string>
+<string name="activity_main_data_export_directory">数据导出目录</string>
+<string name="activity_main_22">导入学生数据请在电脑中excel软件中另存为csv文件，第一列为姓名，第二列为学号，其余列任意，不进行读取，姓名学号请不要重复，否则，请在姓名后进行额外标记以保证不同</string>
+<!--################ activity_main end ################-->
+<!--################ activity_main2 start ################-->
+<string name="activity_main2_23">创建或管理一个班级或进行数据导出</string>
+<string name="activity_main2_perform_job_submission_check">进行作业提交检查</string>
+<!--################ activity_main2 end ################-->
+</resources>
